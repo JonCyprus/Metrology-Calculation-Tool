@@ -34,7 +34,7 @@ if "symbols" in st.session_state:
 
     # Taking type A inputs from user
         if eval_type == "A":
-            rawCSV = st.file_uploader("Upload CSV of data", type="csv", key=f"data{var}")
+            rawCSV = st.file_uploader("Upload CSV of data", type="csv", key=f"data{var}", help="One column with or without header of data.")
             inputs[var] = {"type": "A", "raw": rawCSV, "distribution": "-"}
             for key, value in inputs[var].items():
                 st.session_state[f"{var}{key}"] = value
