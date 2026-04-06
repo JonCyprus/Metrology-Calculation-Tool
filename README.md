@@ -2,7 +2,7 @@
 
 An interactive web tool for computing measurement uncertainty using the **GUM (Guide to the Expression of Uncertainty in Measurement)** analytical method and **Monte Carlo simulation**.
 
-🔗 **[https://your-app-url.streamlit.app](https://uncertaintycalculator.streamlit.app/)** ← replace with your Streamlit URL
+🔗 **[https://your-app-url.streamlit.app](https://uncertaintycalculator.streamlit.app/)** 
 
 ---
 
